@@ -21,20 +21,20 @@ age = int(input("Please enter your age: "))
 
 #determine price based on age from top to bottom
 
-if age < 1:
+if age < 1:         #start
     print("\nYou eat for 0 dollars!")
  
-elif age <= 11:
+elif age <= 11:     #path
     price = age * 1.00
     print(f"\nYour price is: ${price:.2f}")
     print("\nEnjoy your meal!")
 
-elif age <= 64:
+elif age <= 64:     #path
     price = 16.95
     print(f"\nYour price is: ${price:.2f}")
     print("\nThis will cost you!")
 
-else:
+else:               #end
     price = 12.95
     print(f"\nYour price is: ${price:.2f}")
     print("\nThank you for eating at the Age Buffet!")
