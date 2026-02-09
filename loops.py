@@ -12,14 +12,28 @@ ASSIGNMENT REQUIREMENTS
 [ ] 4. Upload to GitHub and paste the link below.
 -----------------------------------------------------------------------
 """
+
+#1
+
 #beginning of code block
 no = True #boolean
 
 #start of loop sequence
 while no:
-    print("Are we there yet?")
+    print("\nAre we there yet?")
     
-    answer = input("(yes/no): ")
+    answer = input("\n(yes/no): ")
     if answer == "yes":
-        print("FINALLY")
+        print("\nFINALLY!\n\nNow the party starts!\n")
         no = False #boolean
+
+#end "while" of loop
+
+#2
+
+#beginning of code block
+for i in range(99, 0, -1):
+    print(f"{i} Bottles of Orc grog on the wall!\n")
+
+#end of "for" loop
+
